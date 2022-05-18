@@ -12,7 +12,7 @@ import {
 import { BlueprintsComponent } from '../BlueprintsComponent';
 
 export const MainComponent = () => (
-  <Page themeId="tool">
+  <Page themeId="website">
     <Header title="cloudify plugin" subtitle="Plugin developed by Cloudify">
       <HeaderLabel label="Owner" value="Cloudify" />
     </Header>
