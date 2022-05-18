@@ -7,6 +7,7 @@ import {
   Content,
   ContentHeader,
   HeaderLabel,
+  SupportButton,
 } from '@backstage/core-components';
 import { BlueprintsComponent } from '../BlueprintsComponent';
 
@@ -17,6 +18,7 @@ export const MainComponent = () => (
     </Header>
     <Content>
       <ContentHeader title="Cloudify Backstage dashboard">
+        <SupportButton>Cloudify Plugin provides a list of all blueprints from Cloudify Manager.</SupportButton>
       </ContentHeader>
       <Grid container spacing={3} direction="column">
         <Grid item>
