@@ -76,7 +76,7 @@ export const DenseTable = ({ blueprints }: DenseTableProps) => {
       id: (
         <a href={blueprint_url} target="_blank">{blueprint.id}</a>
       ),
-      description: blueprint.description,
+      description: blueprint.description || 'Cloudify Blueprint.',
       main_file_name: blueprint.main_file_name,
       labels: resolveLabels(blueprint.labels),
     };
